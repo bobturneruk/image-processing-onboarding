@@ -1,9 +1,11 @@
 # Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
 <style>
     .reveal h1 { font-size: 2em; }
+    .reveal h2 { font-size: 1.5em; }
 </style>
 
 Robert Turner, Image Processing with Python maintainers
+
 August, 2022
 
 # Welcome
@@ -14,13 +16,13 @@ August, 2022
 
 # Setup
 
-# Ep 1. Introduction
+# Ep 1. Introduction - Questions
 
-## Questions
 - What sort of scientific questions can we answer with image processing / computer vision?
 - What are morphometric problems?
 
-## Objectives
+# Ep 1. Introduction - Objectives
+
 - Recognise scientific questions that could be solved with image processing / computer vision.
 - Recognise morphometric problems (those dealing with the number, size, or shape of the objects in an image).
 
