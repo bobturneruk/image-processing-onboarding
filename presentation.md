@@ -49,3 +49,8 @@ August, 2022
   - Do weird things with arrays (e.g. `skimage.transform.resize`)
 - `numpy`
   - Conventional array stuff (e.g. sub-setting, find all values `> x`)
+
+# [Ep 4. Drawing and Bitwise Operations](https://datacarpentry.org/image-processing/04-drawing/index.html)
+
+- Creating images from nothing
+- Masking (setting pixels to be ignored)
