@@ -5,6 +5,10 @@ August, 2022
 
 # Welcome
 
+# Why teach this course?
+
+# What's in the course?
+
 # Setup
 
 # Ep 1. Introduction
