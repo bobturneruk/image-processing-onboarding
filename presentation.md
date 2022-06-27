@@ -24,6 +24,8 @@ August, 2022
 
 # [Ep 2. Image Basics](https://datacarpentry.org/image-processing/02-image-basics/index.html)
 
+<!--This section warrants more time - people will probably get the Python stuff.-->
+
 - Representation of images in computers.
 - Images, arrays and pixels.
 - How RGB is used to make colour images.
@@ -39,3 +41,11 @@ August, 2022
         <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" width="250"><br><p>Blue channel</p></td>
     </tr>
 </table>
+
+# [Ep 3. Working with skimage](https://datacarpentry.org/image-processing/03-skimage-images/index.html)
+
+- `skimage` (Scikit Image)
+  - Input + Output (images are not stored in `numpy` friendly formats)
+  - Do weird things with arrays (e.g. `skimage.transform.resize`)
+- `numpy`
+  - Conventional array stuff (e.g. sub-setting, find all values `> x`)
