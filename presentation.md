@@ -1,4 +1,7 @@
 # Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
+<style>
+    .reveal h1 { font-size: 2em; }
+</style>
 
 Robert Turner, Image Processing with Python maintainers
 August, 2022
