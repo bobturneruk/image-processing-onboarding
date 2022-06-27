@@ -29,4 +29,13 @@ August, 2022
 - How RGB is used to make colour images.
 - File formats and compression.
 
-#
+# Image Representation
+
+<table>
+    <tr>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" width="250"><br><p>RGB Image</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" width="250"><br><p>Red channel</p></td> 
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" width="250"><br><p>Green channel</p></td> 
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" width="250"><br><p>Blue channel</p></td>
+    </tr>
+</table>
