@@ -16,16 +16,15 @@ August, 2022
 
 # Setup
 
-# Ep 1. Introduction - Questions
+# Ep 1. Introduction
 
-- What sort of scientific questions can we answer with image processing / computer vision?
-- What are morphometric problems?
-
-# Ep 1. Introduction - Objectives
-
-- Recognise scientific questions that could be solved with image processing / computer vision.
-- Recognise morphometric problems (those dealing with the number, size, or shape of the objects in an image).
+- What research questions can we answer with image processing?
+  - e.g. [imaging a Black Hole](https://iopscience.iop.org/article/10.3847/2041-8213/ab0e85), [estimating the population of Emperor Penguins](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325796/), [the global-scale analysis of marine plankton diversity](https://www.cell.com/cell/fulltext/S0092-8674(19)31124-9), [segmentation of liver and vessels from CT images](https://doi.org/10.1016/j.cmpb.2017.12.008)
+- Morphometrics
 
 # Ep 2. Image Basics
 
-# 
+- Representation of images in computers.
+- Images, arrays and pixels.
+- How RGB is used to make colour images.
+- File formats and compression.
