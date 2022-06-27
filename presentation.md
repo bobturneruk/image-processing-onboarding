@@ -36,8 +36,8 @@ August, 2022
 <table>
     <tr>
         <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" width="250"><br><p>RGB Image</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" width="250"><br><p>Red channel</p></td> 
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" width="250"><br><p>Green channel</p></td> 
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" width="250"><br><p>Red channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" width="250"><br><p>Green channel</p></td>
         <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" width="250"><br><p>Blue channel</p></td>
     </tr>
 </table>
@@ -54,3 +54,14 @@ August, 2022
 
 - Creating images from nothing
 - Masking (setting pixels to be ignored)
+
+# [Ep 5. Creating Histograms](https://datacarpentry.org/image-processing/05-creating-histograms/index.html)
+
+- The distribution of intensity of colour in an image can tell us things.
+
+<table>
+    <tr>
+        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" width="250"><br><p>Plant Seedling</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" width="250"><br><p>Histogram</p></td>
+    </tr>
+</table>
