@@ -1,20 +1,22 @@
-# Presentation title
+# Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
 
-Robert Turner, Paul Richmond, University of Sheffield RSE Team
-September, 2021
+Robert Turner, Image Processing with Python maintainers
+August, 2022
 
-# Slide 1 Title
+# Welcome
 
-Thanks for coming, thanks to the conference organisers, thanks to the RSE team at Sheffield, Paul Richmond in particular.
+# Setup
 
-# Slide 2 Title
+# Ep 1. Introduction
 
-![Bob Turner](images/bobicorn.jpg){ height=256px }
+## Questions
+- What sort of scientific questions can we answer with image processing / computer vision?
+- What are morphometric problems?
 
-Mix of software engineering and research experience.
+## Objectives
+- Recognise scientific questions that could be solved with image processing / computer vision.
+- Recognise morphometric problems (those dealing with the number, size, or shape of the objects in an image).
 
-# Slide 3 Title
+# Ep 2. Image Basics
 
-![RSE](https://github.com/RSE-Sheffield/RSE-Sheffield.github.io/raw/master/assets/images/logo/rse-logoonly-stroke.png){ height=256px }
-
-13 RSEs, 35 projects / year worth ~£11m total
+# 
