@@ -14,6 +14,13 @@ August, 2022
 
 # What's in the course?
 
+# [What do I need to know first?](https://datacarpentry.org/image-processing/prereqs/index.html)
+
+- Bash shell skills
+  - Navigating directories using `pwd`, `ls`, `cd <subdirectory>`, and `cd ..`, Run a Python script from the command line.
+- Python skills
+  - Variables and types, lists, logic (`if`, `else`, etc.), basic file input / output
+
 # Setup
 
 # [Ep 1. Introduction](https://datacarpentry.org/image-processing/01-introduction/index.html)
