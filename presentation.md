@@ -77,3 +77,18 @@ August, 2022
         <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" width="250"><br><p>Histogram</p></td>
     </tr>
 </table>
+
+# [Ep. 6 Blurring Images](https://datacarpentry.org/image-processing/06-blurring/index.html)
+
+- Why blur?
+- What's the relationship between blurring, filtering, convolution and kernels?
+
+# Effects of blurring
+
+<table>
+    <tr>
+        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" width="250"><br><p>Not Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" width="250"><br><p>Blurred</p></td>
+    </tr>
+</table>
+
