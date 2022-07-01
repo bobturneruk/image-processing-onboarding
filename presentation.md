@@ -45,7 +45,7 @@ August, 2022
 
 # If you are a computer, images are arrays
 
-
+<img src="https://datacarpentry.org/image-processing/fig/cat-corner-blue.png" alt="Image with pixel values overlaid" width="250"><br><p>Image with pixel values overlaid</p>
 
 # Image Representation
 
