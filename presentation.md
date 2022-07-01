@@ -92,3 +92,17 @@ August, 2022
     </tr>
 </table>
 
+# [Ep. 7 Thresholding](https://datacarpentry.org/image-processing/07-thresholding/index.html)
+
+- What is thresholding?
+- Why would we want to do it?
+- What methods are available?
+
+# "Simple" Thresholding
+
+<table>
+    <tr>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Original Grayscale" width="250"><br><p>Original Grayscale</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold Applied" width="250"><br><p>Threshold Applied</p></td>
+    </tr>
+</table>
