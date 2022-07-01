@@ -125,3 +125,8 @@ August, 2022
         <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False Positive Objects" width="250"><br><p>False Positive Objects</p></td>
     </tr>
 </table>
+
+# [Ep 9. Capstone Challenge](https://datacarpentry.org/image-processing/09-challenges/index.html)
+
+- Brings together blurring, thresholding and connected component analysis.
+- Example used is counting colonies of bacteria.
