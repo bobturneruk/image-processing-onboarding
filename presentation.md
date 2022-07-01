@@ -117,3 +117,11 @@ August, 2022
 
 <img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled Shapes" width="250"><br><p>Labelled Shapes</p>
 
+# Getting statistics
+
+<table>
+    <tr>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-areas-histogram.png" alt="Areas Histogram" width="250"><br><p>Areas Histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False Positive Objects" width="250"><br><p>False Positive Objects</p></td>
+    </tr>
+</table>
