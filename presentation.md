@@ -1,12 +1,11 @@
-# Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
+% Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
+% Robert Turner, Image Processing with Python maintainers
+% August, 2022
+
 <style>
     .reveal h1 { font-size: 2em; }
     .reveal h2 { font-size: 1.5em; }
 </style>
-
-Robert Turner, Image Processing with Python maintainers
-
-August, 2022
 
 # Welcome
 
@@ -45,16 +44,16 @@ August, 2022
 
 # If you are a computer, images are arrays
 
-<img src="https://datacarpentry.org/image-processing/fig/cat-corner-blue.png" alt="Image with pixel values overlaid" width="250"><br><p>Image with pixel values overlaid</p>
+<img src="https://datacarpentry.org/image-processing/fig/cat-corner-blue.png" alt="Image with pixel values overlaid" height="250"><br><p>Image with pixel values overlaid</p>
 
 # Image Representation
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" width="250"><br><p>RGB Image</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" width="250"><br><p>Red channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" width="250"><br><p>Green channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" width="250"><br><p>Blue channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image"><br><p>RGB Image</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel"><br><p>Red channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel"><br><p>Green channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel"><br><p>Blue channel</p></td>
     </tr>
 </table>
 
@@ -77,8 +76,8 @@ August, 2022
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" width="250"><br><p>Plant Seedling</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" width="250"><br><p>Histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" height="250"><br><p>Plant Seedling</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" height="250"><br><p>Histogram</p></td>
     </tr>
 </table>
 
@@ -91,8 +90,8 @@ August, 2022
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" width="250"><br><p>Not Blurred</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" width="250"><br><p>Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" height="250"><br><p>Not Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" height="250"><br><p>Blurred</p></td>
     </tr>
 </table>
 
@@ -106,8 +105,8 @@ August, 2022
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Blurred Grayscale" width="250"><br><p>Blurred Grayscale</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold Applied" width="250"><br><p>Threshold Applied</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Blurred Grayscale" height="250"><br><p>Blurred Grayscale</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold Applied" height="250"><br><p>Threshold Applied</p></td>
     </tr>
 </table>
 
@@ -115,14 +114,14 @@ August, 2022
 
 - Separating objects and getting information about them.
 
-<img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled Shapes" width="250"><br><p>Labelled Shapes</p>
+<img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled Shapes" height="250"><br><p>Labelled Shapes</p>
 
 # Getting statistics
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-areas-histogram.png" alt="Areas Histogram" width="250"><br><p>Areas Histogram</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False Positive Objects" width="250"><br><p>False Positive Objects</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-areas-histogram.png" alt="Areas Histogram" height="250"><br><p>Areas Histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False Positive Objects" height="250"><br><p>False Positive Objects</p></td>
     </tr>
 </table>
 
