@@ -10,9 +10,9 @@ August, 2022
 
 # Welcome
 
-# Why teach this course?
+# Why teach this lesson?
 
-# What's in the course?
+# What's in the lesson?
 
 # [What do I need to know first?](https://datacarpentry.org/image-processing/prereqs/index.html)
 
