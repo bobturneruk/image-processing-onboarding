@@ -106,3 +106,10 @@ August, 2022
         <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold Applied" width="250"><br><p>Threshold Applied</p></td>
     </tr>
 </table>
+
+# [Ep 8. Connected Components](https://datacarpentry.org/image-processing/08-connected-components/index.html)
+
+- Separating objects and getting information about them.
+
+<img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled Shapes" width="250"><br><p>Labelled Shapes</p>
+
