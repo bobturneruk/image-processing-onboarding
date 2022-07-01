@@ -21,7 +21,12 @@ August, 2022
 - Python skills
   - Variables and types, lists, logic (`if`, `else`, etc.), basic file input / output
 
-# Setup
+# [Setup](https://datacarpentry.org/image-processing/setup/)
+
+- Data
+  - Download from FigShare
+- Software
+  - Anaconda (base environment includes all required packages) and Jupyter Notebooks
 
 # [Ep 1. Introduction](https://datacarpentry.org/image-processing/01-introduction/index.html)
 
