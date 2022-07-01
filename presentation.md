@@ -43,6 +43,10 @@ August, 2022
 - How RGB is used to make colour images.
 - File formats and compression.
 
+# If you are a computer, images are arrays
+
+
+
 # Image Representation
 
 <table>
