@@ -106,7 +106,7 @@ August, 2022
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Original Grayscale" width="250"><br><p>Original Grayscale</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Blurred Grayscale" width="250"><br><p>Blurred Grayscale</p></td>
         <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold Applied" width="250"><br><p>Threshold Applied</p></td>
     </tr>
 </table>
