@@ -126,6 +126,13 @@ August, 2022
     </tr>
 </table>
 
+# Morphometrics
+
+- Properties of the shape of an object.
+- [skimage regionprops](https://scikit-image.org/docs/dev/api/skimage.measure.html#skimage.measure.regionprops)
+- Basic e.g. area, perimeter, center
+- More complex e.g. eccentricity, bounding box
+
 # [Ep 9. Capstone Challenge](https://datacarpentry.org/image-processing/09-challenges/index.html)
 
 - Brings together blurring, thresholding and connected component analysis.
