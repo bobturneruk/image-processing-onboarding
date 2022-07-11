@@ -7,6 +7,10 @@
     .reveal h2 { font-size: 1.5em; }
 </style>
 
+<script>
+Reveal.initialize({ slideNumber: true });
+</script>
+
 # Thank you!
 
 Thanks to CarpentryCon 2022 for having this session, thank you for coming.
@@ -153,3 +157,7 @@ Thanks to CarpentryCon 2022 for having this session, thank you for coming.
 
 - Brings together blurring, thresholding and connected component analysis.
 - Example used is counting colonies of bacteria.
+
+# Questions / discussion
+
+# Thanks again!
