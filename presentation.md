@@ -34,6 +34,12 @@ Thanks to CarpentryCon 2022 for having this session, thank you for coming.
 - Manipulating images using software.
 - Extracting data / statistics from images. 
 
+# What's not in the lesson?
+
+- AI / Deep Learning
+
+Lesson is a more "traditional" approach: easier to explain results, less data-intensive.
+
 # [What do I need to know first?](https://datacarpentry.org/image-processing/prereqs/index.html)
 
 - Bash shell skills
