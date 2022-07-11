@@ -19,7 +19,16 @@ Thanks to CarpentryCon 2022 for having this session, thank you for coming.
 
 # Why teach this lesson?
 
+- Images are everywhere.
+- Images data is different to data frame data.
+
 # What's in the lesson?
+
+- Introduction to images in research.
+- How images are represented by computers.
+- Software tools for working with images.
+- Manipulating images using software.
+- Extracting data / statistics from images. 
 
 # [What do I need to know first?](https://datacarpentry.org/image-processing/prereqs/index.html)
 
