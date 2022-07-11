@@ -1,5 +1,5 @@
 % Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
-% Robert Turner, Image Processing with Python maintainers
+% Robert Turner, "Image Processing with Python" maintainers
 % August, 2022
 
 <style>
@@ -7,7 +7,15 @@
     .reveal h2 { font-size: 1.5em; }
 </style>
 
-# Welcome
+# Thank you!
+
+Thanks to CarpentryCon 2022 for having this session, thank you for coming.
+
+# Presenters
+
+- Robert "Bob" Turner
+- Toby Hodges
+- others...
 
 # Why teach this lesson?
 
