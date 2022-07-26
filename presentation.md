@@ -1,6 +1,8 @@
-% Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
-% Robert Turner, "Image Processing with Python" maintainers
-% August, 2022
+# Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
+
+Robert Turner, "Image Processing with Python" maintainers
+
+August, 2022
 
 <style>
     .reveal h1 { font-size: 2em; }
