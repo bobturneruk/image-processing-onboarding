@@ -21,6 +21,22 @@ Thanks to CarpentryCon 2022 for having this session, thank you for coming.
 - Toby Hodges
 - David Palmquist
 
+# Acknowledgements
+
+- Special thanks to Prof. Mark Meysenburg, Prof. Tessa Durham Brooks, Dr. Raychelle Burks, and everyone involved in the initial design and testing of the curriculum within the DIVAS Project.
+- Dominik Kutra and Dr. Constantin Pape made an essential contribution by converting the lesson to use scikit-learn.
+- Dominik Kutra and Dr. Gregor Mönke taught the alpha pilot at EMBL, with help from Dr. Christian Tischer and support from the EMBL Bio-IT Project.
+
+# Acknowledgements (continued)
+
+- Trisha Adamus and Prof. Mark Meysenburg taught the alpha pilot at the University of Arizona, with help from Zuzana Adams, Amirhossein Azami, Ryan Carlson, Courtney Comrie, Gabriela De La Cruz Sanchez, Chris Klimowski, Shuailong Li, Chuan Luo, Artin Majdi, Maliaca Oxnam, Travis Struck. That workshop was hosted by the BIO5 Initiative, in partnership with CyVerse, the D7 Data Science Institute and the UArizona Libraries
+
+# Acknowledgements (continued)
+
+- Dr. Kimberly Meechan, David Palmquist, Prof. Ulf Schiller, and Dr. Robert Turner have taken over as Maintainers and core contributors for the lesson, and continue to drive its development.
+- Many community members have opened issues and pull requests to improve the lesson.
+- The lesson development process was supported by Dr. Erin Becker and Dr. Toby Hodges from The Carpentries Curriculum Team.
+
 # What is a "beta" lesson?
 
 Pre-alpha-->Alpha-->**Beta**-->Stable
