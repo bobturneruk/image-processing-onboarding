@@ -32,7 +32,20 @@ Thanks to CarpentryCon 2022 for having this session, thank you for coming.
 - How images are represented by computers.
 - Software tools for working with images.
 - Manipulating images using software.
-- Extracting data / statistics from images. 
+- Extracting data / statistics from images.
+
+# How do we think about image data?
+
+![Magritte's "La Trahison des Images" ("The Treachery of Images") (1928-9) or "Ceci n'est pas une pipe" ("This is not a pipe").](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)
+
+# Key concepts
+
+- Pixels
+- Arrays
+- Coordinates
+- Channels
+- Kernels
+- Binary masks
 
 # What's not in the lesson?
 
