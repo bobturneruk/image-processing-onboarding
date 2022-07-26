@@ -21,6 +21,14 @@ Thanks to CarpentryCon 2022 for having this session, thank you for coming.
 - Toby Hodges
 - others...
 
+# What is a "beta" lesson?
+
+Pre-alpha-->Alpha-->**Beta**-->Stable
+
+- Exercise caution
+- Feedback welcome
+- Second beta pilot needed (please get in touch)
+
 # Why teach this lesson?
 
 - Images are everywhere.
