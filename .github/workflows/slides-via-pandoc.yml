@@ -24,6 +24,7 @@ jobs:
             --self-contained   
             -t revealjs
             -V theme=moon
+            -V lang=en
             -o docs/index.html
             presentation.md
 
