@@ -97,6 +97,12 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
   - e.g. [imaging a Black Hole](https://iopscience.iop.org/article/10.3847/2041-8213/ab0e85), [estimating the population of Emperor Penguins](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325796/), [the global-scale analysis of marine plankton diversity](https://www.cell.com/cell/fulltext/S0092-8674(19)31124-9), [segmentation of liver and vessels from CT images](https://doi.org/10.1016/j.cmpb.2017.12.008)
 - Morphometrics
 
+# Optional Breakout 1
+
+- What research area are you most comfortable in?
+- What research areas do you expect your learners to come from?
+- Are there any particular challenges in working with image data in these areas?
+
 # [Ep 2. Image Basics](https://datacarpentry.org/image-processing/02-image-basics/index.html)
 
 <!--This section warrants more time - people will probably get the Python stuff.-->
