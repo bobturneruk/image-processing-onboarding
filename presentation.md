@@ -207,6 +207,11 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 - Brings together blurring, thresholding and connected component analysis.
 - Example used is counting colonies of bacteria.
 
+# Optional Breakout 2
+
+- What questions would you expect to be asked by learners?
+- How would you answer them?
+
 # Questions / discussion
 
 # Thanks again!
