@@ -19,7 +19,7 @@ Thanks to CarpentryCon 2022 for having this session, thank you for coming.
 
 - Robert "Bob" Turner
 - Toby Hodges
-- others...
+- David Palmquist
 
 # What is a "beta" lesson?
 
