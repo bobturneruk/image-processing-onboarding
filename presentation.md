@@ -1,6 +1,8 @@
 # Data Carpentry: Image Processing with Python
 
-Jacob Deppen and David Palmquist, "Image Processing with Python" maintainers
+Jacob Deppen and David Palmquist
+
+Image Processing with Python maintainers
 
 July, 2023
 
@@ -64,37 +66,37 @@ Moved from "beta" to "stable" in January 2023.
 
 - AI / Deep Learning
 
-Lesson is a more "traditional" approach: easier to explain results, less data-intensive.
+Lesson is a more "traditional" approach: easier to explain results, less data-intensive, applicable to more domains.
 
-# [What do I need to know first?](https://datacarpentry.org/image-processing/prereqs/index.html)
+# [What do I need to know?](https://datacarpentry.org/image-processing/prereqs.html)
 
 - Bash shell skills
   - Navigating directories using `pwd`, `ls`, `cd <subdirectory>`, and `cd ..`, Run a Python script from the command line.
 - Python skills
   - Variables and types, lists, logic (`if`, `else`, etc.), basic file input / output
 
-# [Setup](https://datacarpentry.org/image-processing/setup/)
+# Lesson setup
 
 - Data
   - Download from FigShare
 - Software
   - Anaconda (base environment includes all required packages) and Jupyter Notebooks
 
-# [Ep 1. Introduction](https://datacarpentry.org/image-processing/01-introduction/index.html)
+# Introduction to image processing
 
 - What research questions can we answer with image processing?
-  - e.g. [imaging a Black Hole](https://iopscience.iop.org/article/10.3847/2041-8213/ab0e85), [estimating the population of Emperor Penguins](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325796/), [the global-scale analysis of marine plankton diversity](https://www.cell.com/cell/fulltext/S0092-8674(19)31124-9), [segmentation of liver and vessels from CT images](https://doi.org/10.1016/j.cmpb.2017.12.008)
-- Morphometrics
+  - [imaging a Black Hole](https://iopscience.iop.org/article/10.3847/2041-8213/ab0e85)
+  - [estimating the population of Emperor Penguins](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325796/),
+  - [the global-scale analysis of marine plankton diversity](https://www.cell.com/cell/fulltext/S0092-8674(19)31124-9),
+  - [segmentation of liver and vessels from CT images](https://doi.org/10.1016/j.cmpb.2017.12.008)
+- Morphometrics, also known as "measuring things in images".
 
-# Optional Breakout 1
+# Optional breakout 1
 
-- What research area are you most comfortable in?
 - What research areas do you expect your learners to come from?
-- Are there any particular challenges in working with image data in these areas?
+- Are there particular challenges in working with image data in these areas?
 
-# [Ep 2. Image Basics](https://datacarpentry.org/image-processing/02-image-basics/index.html)
-
-<!--This section warrants more time - people will probably get the Python stuff.-->
+# Image basics
 
 - Representation of images in computers.
 - Images, arrays and pixels.
@@ -105,82 +107,67 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 <img src="https://datacarpentry.org/image-processing/fig/cat-corner-blue.png" alt="Image with pixel values overlaid" height="250"><br><p>Image with pixel values overlaid</p>
 
-# Image Representation
+# Image representation
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image"><br><p>RGB Image</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel"><br><p>Red channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel"><br><p>Green channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel"><br><p>Blue channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image"><br><p style="text-align:center">RGB Image</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel"><br><p style="text-align:center">Red channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel"><br><p style="text-align:center">Green channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel"><br><p style="text-align:center">Blue channel</p></td>
     </tr>
 </table>
 
-# [Ep 3. Working with skimage](https://datacarpentry.org/image-processing/03-skimage-images/index.html)
+# Tools for working with images
 
-- `skimage` (Scikit Image)
-  - Input + Output (images are not stored in `numpy` friendly formats)
-  - Do weird things with arrays (e.g. `skimage.transform.resize`)
+- `skimage` (scikit-image)
+  - Do weird things with arrays (e.g. `skimage.transform.resize`).
 - `numpy`
-  - Conventional array stuff (e.g. sub-setting, find all values `> x`)
+  - Conventional array stuff (e.g. sub-setting, find all values `> x`).
+- `imageio`
+  - Input + output; images are often _not_ stored in `numpy` friendly formats.
 
-# [Ep 4. Drawing and Bitwise Operations](https://datacarpentry.org/image-processing/04-drawing/index.html)
-
-- Creating images from nothing
-- Masking (setting pixels to be ignored)
-
-# [Ep 5. Creating Histograms](https://datacarpentry.org/image-processing/05-creating-histograms/index.html)
+# Analyzing images
 
 - The distribution of intensity of colour in an image can tell us things.
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" height="250"><br><p>Plant Seedling</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" height="250"><br><p>Histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" height="300"><br><p style="text-align:center">Plant Seedling</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" height="300"><br><p style="text-align:center">Histogram</p></td>
     </tr>
 </table>
 
-# [Ep. 6 Blurring Images](https://datacarpentry.org/image-processing/06-blurring/index.html)
-
-- Why blur?
-- What's the relationship between blurring, filtering, convolution and kernels?
-
-# Effects of blurring
+# Blurring
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" height="250"><br><p>Not Blurred</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" height="250"><br><p>Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" height="250"><br><p style="text-align:center">Not Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" height="250"><br><p style="text-align:center">Blurred</p></td>
     </tr>
 </table>
 
-# [Ep. 7 Thresholding](https://datacarpentry.org/image-processing/07-thresholding/index.html)
-
-- What is thresholding?
-- Why would we want to do it?
-- What methods are available?
-
-# "Simple" Thresholding
+# Thresholding
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Blurred Grayscale" height="250"><br><p>Blurred Grayscale</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold Applied" height="250"><br><p>Threshold Applied</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Blurred grayscale" height="250"><br><p style="text-align:center">Blurred grayscale</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold applied" height="250"><br><p style="text-align:center">Threshold applied</p></td>
     </tr>
 </table>
 
-# [Ep 8. Connected Components](https://datacarpentry.org/image-processing/08-connected-components/index.html)
+# Connected components
 
 - Separating objects and getting information about them.
 
-<img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled Shapes" height="250"><br><p>Labelled Shapes</p>
+<img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled shapes" height="250"><br><p>Labelled shapes</p>
 
 # Getting statistics
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-areas-histogram.png" alt="Areas Histogram" height="250"><br><p>Areas Histogram</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False Positive Objects" height="250"><br><p>False Positive Objects</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-areas-histogram.png" alt="Areas histogram" height="250"><br><p style="text-align:center">Areas histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False positive objects" height="250"><br><p style="text-align:center">False positive objects</p></td>
     </tr>
 </table>
 
@@ -191,15 +178,17 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 - Basic e.g. area, perimeter, center
 - More complex e.g. eccentricity, bounding box
 
-# [Ep 9. Capstone Challenge](https://datacarpentry.org/image-processing/09-challenges/index.html)
+# Capstone challenge
 
-- Brings together blurring, thresholding and connected component analysis.
+- Brings together blurring, thresholding, and connected component analysis.
 - Example used is counting colonies of bacteria.
 
-# Optional Breakout 2
+<img src="https://datacarpentry.org/image-processing/fig/colonies-01-summary.png" alt="Morphometrics for bacterial colonies" height="300"><br><p style="text-align:center">Morphometrics for bacterial colonies</p>
 
-- What questions would you expect to be asked by learners?
-- How would you answer them?
+# Optional breakout 2
+
+- What imaging tools are people in your field using?
+- How does that fit in with an open source image processing stack?
 
 # Questions / discussion
 
