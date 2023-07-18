@@ -34,8 +34,8 @@ jobs:
 #       - name: Check accesibility with pa11y
 #         run: pa11y docs/index.html 
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.4.3
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
           branch: pages # The branch the action should deploy to.
           folder: docs # The folder the action should deploy.
