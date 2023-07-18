@@ -43,8 +43,7 @@ Moved from "beta" to "stable" in January 2023.
 
 - Introduction to images in research.
 - How images are represented by computers.
-- Software tools for working with images.
-- Manipulating images using software.
+- Manipulating images using python and scikit-image library.
 - Extracting data / statistics from images.
 
 # How do we think about image data?
