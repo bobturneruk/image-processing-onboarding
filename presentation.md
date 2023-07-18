@@ -111,10 +111,10 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" height="250"><br><p style="text-align:center">RGB Image</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" height="250"><br><p style="text-align:center">Red channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" height="250"><br><p style="text-align:center">Green channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" height="250"><br><p style="text-align:center">Blue channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" height="250" width="250"><br><p style="text-align:center">RGB Image</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" height="250" width="250"><br><p style="text-align:center">Red channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" height="250" width="250"><br><p style="text-align:center">Green channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" height="250" width="250"><br><p style="text-align:center">Blue channel</p></td>
     </tr>
 </table>
 
@@ -133,8 +133,8 @@ The distribution of intensity of colour in an image can tell us things.
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" height="350"><br><p style="text-align:center">Plant Seedling</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" height="350"><br><p style="text-align:center">Histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" height="300"><br><p style="text-align:center">Plant Seedling</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" height="300"><br><p style="text-align:center">Histogram</p></td>
     </tr>
 </table>
 
@@ -180,8 +180,8 @@ Separating objects and getting information about them.
 
 # Capstone challenge
 
+- Morphometrics for bacterial colonies.
 - Brings together blurring, thresholding, and connected component analysis.
-- Example used is counting colonies of bacteria.
 
 <img src="https://datacarpentry.org/image-processing/fig/colonies-01-summary.png" alt="Morphometrics for bacterial colonies" height="350">
 
