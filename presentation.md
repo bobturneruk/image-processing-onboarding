@@ -1,4 +1,4 @@
-# Data Carpentry: Image Processing with Python
+# Image Processing with Python
 
 Jacob Deppen and David Palmquist
 
@@ -111,10 +111,10 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" height="250" width="250"><br><p style="text-align:center">RGB Image</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" height="250" width="250"><br><p style="text-align:center">Red channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" height="250" width="250"><br><p style="text-align:center">Green channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" height="250" width="250"><br><p style="text-align:center">Blue channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" height="200"><br><p style="text-align:center">RGB Image</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" height="200"><br><p style="text-align:center">Red channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" height="250"><br><p style="text-align:center">Green channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" height="250"><br><p style="text-align:center">Blue channel</p></td>
     </tr>
 </table>
 
@@ -142,7 +142,7 @@ The distribution of intensity of colour in an image can tell us things.
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" height="350"><br><p style="text-align:center">Not Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" height="350"><br><p style="text-align:center">Original</p></td>
         <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" height="350"><br><p style="text-align:center">Blurred</p></td>
     </tr>
 </table>
