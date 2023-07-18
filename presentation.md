@@ -1,8 +1,8 @@
-# Instructor Onboarding for Data Carpentry: Image Processing with Python (beta)
+# Data Carpentry: Image Processing with Python
 
-Robert Turner, "Image Processing with Python" maintainers
+Jacob Deppen and David Palmquist, "Image Processing with Python" maintainers
 
-August, 2022
+July, 2023
 
 <style>
     .reveal h1 { font-size: 2em; }
@@ -15,42 +15,29 @@ Reveal.initialize({ slideNumber: true });
 
 # Thank you!
 
-Thanks to CarpentryCon 2022 for having this session, thank you for coming.
+Thanks to Nisha and Mary for hosting and thank _you_ for coming.
 
 # Presenters
 
-- Robert "Bob" Turner
-- Toby Hodges
-- David Palmquist
+- Jacob Deppen, `deppen8` on GitHub
+- David Palmquist, `quist00` on GitHub
 
 # Acknowledgements
 
-- Special thanks to Prof. Mark Meysenburg, Prof. Tessa Durham Brooks, Dr. Raychelle Burks, and everyone involved in the initial design and testing of the curriculum within the DIVAS Project.
-- Dominik Kutra and Dr. Constantin Pape made an essential contribution by converting the lesson to use scikit-learn.
-- Dominik Kutra and Dr. Gregor Mönke taught the alpha pilot at EMBL, with help from Dr. Christian Tischer and support from the EMBL Bio-IT Project.
-
-# Acknowledgements (continued)
-
-- Trisha Adamus and Prof. Mark Meysenburg taught the alpha pilot at the University of Arizona, with help from Zuzana Adams, Amirhossein Azami, Ryan Carlson, Courtney Comrie, Gabriela De La Cruz Sanchez, Chris Klimowski, Shuailong Li, Chuan Luo, Artin Majdi, Maliaca Oxnam, Travis Struck. That workshop was hosted by the BIO5 Initiative, in partnership with CyVerse, the D7 Data Science Institute and the UArizona Libraries
-
-# Acknowledgements (continued)
-
-- Dr. Kimberly Meechan, David Palmquist, Prof. Ulf Schiller, and Dr. Robert Turner have taken over as Maintainers and core contributors for the lesson, and continue to drive its development.
+- Current maintainer team: Kimberly Meechan, Ulf Schiller, Robert Turner, Toby Hodges
+- Content originally developed by Mark Meysenburg, Tessa Durham Brooks, Dominik Kutra, Constantin Pape, and Erin Becker.
 - Many community members have opened issues and pull requests to improve the lesson.
-- The lesson development process was supported by Dr. Erin Becker and Dr. Toby Hodges from The Carpentries Curriculum Team.
 
-# What is a "beta" lesson?
+# Image Processing is stable!
 
-Pre-alpha-->Alpha-->**Beta**-->Stable
+![Four stages of lesson release timeline](https://cdh.carpentries.org/figures/release_timeline.svg)
 
-- Exercise caution
-- Feedback welcome
-- Second beta pilot needed (please get in touch)
+Moved from "beta" to "stable" in January 2023.
 
 # Why teach this lesson?
 
 - Images are everywhere.
-- Images data is different to data frame data.
+- Images data is different to tabular / data frame data.
 
 # What's in the lesson?
 
