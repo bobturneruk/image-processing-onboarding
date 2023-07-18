@@ -2,8 +2,6 @@
 
 Jacob Deppen and David Palmquist
 
-Image Processing with Python maintainers
-
 July, 2023
 
 <style>
