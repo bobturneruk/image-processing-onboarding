@@ -30,9 +30,9 @@ Thanks to Nisha and Mary for hosting and thank _you_ for coming.
 
 # Image Processing is stable!
 
-![Four stages of lesson release timeline](https://cdh.carpentries.org/figures/release_timeline.svg)
-
 Moved from "beta" to "stable" in January 2023.
+
+![Four stages of lesson release timeline](https://cdh.carpentries.org/figures/release_timeline.svg)
 
 # Why teach this lesson?
 
