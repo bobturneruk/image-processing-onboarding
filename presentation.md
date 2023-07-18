@@ -39,7 +39,7 @@ Moved from "beta" to "stable" in January 2023.
 # Why teach this lesson?
 
 - Images are everywhere.
-- Images data is different to tabular / data frame data.
+- Image data is different to tabular / data frame data.
 
 # What's in the lesson?
 
@@ -68,7 +68,7 @@ Moved from "beta" to "stable" in January 2023.
 
 Lesson is a more "traditional" approach: easier to explain results, less data-intensive, applicable to more domains.
 
-# [What do I need to know?](https://datacarpentry.org/image-processing/prereqs.html)
+# What do I need to know?
 
 - Bash shell skills
   - Navigating directories using `pwd`, `ls`, `cd <subdirectory>`, and `cd ..`, Run a Python script from the command line.
@@ -105,16 +105,16 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 # If you are a computer, images are arrays
 
-<img src="https://datacarpentry.org/image-processing/fig/cat-corner-blue.png" alt="Image with pixel values overlaid" height="250"><br><p>Image with pixel values overlaid</p>
+<img src="https://datacarpentry.org/image-processing/fig/cat-corner-blue.png" alt="Image with pixel values overlaid" height="350"><br><p>Image with pixel values overlaid</p>
 
 # Image representation
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image"><br><p style="text-align:center">RGB Image</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel"><br><p style="text-align:center">Red channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel"><br><p style="text-align:center">Green channel</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel"><br><p style="text-align:center">Blue channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard.png" alt="RGB Image" height="250"><br><p style="text-align:center">RGB Image</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-red-channel.png" alt="Red channel" height="250"><br><p style="text-align:center">Red channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-green-channel.png" alt="Green channel" height="250"><br><p style="text-align:center">Green channel</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/checkerboard-blue-channel.png" alt="Blue channel" height="250"><br><p style="text-align:center">Blue channel</p></td>
     </tr>
 </table>
 
@@ -129,12 +129,12 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 # Analyzing images
 
-- The distribution of intensity of colour in an image can tell us things.
+The distribution of intensity of colour in an image can tell us things.
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" height="300"><br><p style="text-align:center">Plant Seedling</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" height="300"><br><p style="text-align:center">Histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/plant-seedling.jpg" alt="Plant Seedling" height="350"><br><p style="text-align:center">Plant Seedling</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/plant-seedling-colour-histogram.png" alt="Histogram" height="350"><br><p style="text-align:center">Histogram</p></td>
     </tr>
 </table>
 
@@ -142,8 +142,8 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" height="250"><br><p style="text-align:center">Not Blurred</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" height="250"><br><p style="text-align:center">Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/data/gaussian-original.png" alt="Gaussian Original" height="350"><br><p style="text-align:center">Not Blurred</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/gaussian-blurred.png" alt="Gaussian Blurred" height="350"><br><p style="text-align:center">Blurred</p></td>
     </tr>
 </table>
 
@@ -151,23 +151,23 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Blurred grayscale" height="250"><br><p style="text-align:center">Blurred grayscale</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold applied" height="250"><br><p style="text-align:center">Threshold applied</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-grayscale.png" alt="Blurred grayscale" height="350"><br><p style="text-align:center">Blurred grayscale</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-mask.png" alt="Threshold applied" height="350"><br><p style="text-align:center">Threshold applied</p></td>
     </tr>
 </table>
 
 # Connected components
 
-- Separating objects and getting information about them.
+Separating objects and getting information about them.
 
-<img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled shapes" height="250"><br><p>Labelled shapes</p>
+<img src="https://datacarpentry.org/image-processing/fig/shapes-01-labeled.png" alt="Labelled shapes" height="350"><br><p>Labelled shapes</p>
 
 # Getting statistics
 
 <table>
     <tr>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-areas-histogram.png" alt="Areas histogram" height="250"><br><p style="text-align:center">Areas histogram</p></td>
-        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False positive objects" height="250"><br><p style="text-align:center">False positive objects</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-areas-histogram.png" alt="Areas histogram" height="350"><br><p style="text-align:center">Areas histogram</p></td>
+        <td><img src="https://datacarpentry.org/image-processing/fig/shapes-01-cca-detail.png" alt="False positive objects" height="350"><br><p style="text-align:center">False positive objects</p></td>
     </tr>
 </table>
 
@@ -175,15 +175,15 @@ Lesson is a more "traditional" approach: easier to explain results, less data-in
 
 - Properties of the shape of an object.
 - [skimage regionprops](https://scikit-image.org/docs/dev/api/skimage.measure.html#skimage.measure.regionprops)
-- Basic e.g. area, perimeter, center
-- More complex e.g. eccentricity, bounding box
+- Basic e.g., area, perimeter, center
+- More complex e.g., eccentricity, bounding box
 
 # Capstone challenge
 
 - Brings together blurring, thresholding, and connected component analysis.
 - Example used is counting colonies of bacteria.
 
-<img src="https://datacarpentry.org/image-processing/fig/colonies-01-summary.png" alt="Morphometrics for bacterial colonies" height="300"><br><p style="text-align:center">Morphometrics for bacterial colonies</p>
+<img src="https://datacarpentry.org/image-processing/fig/colonies-01-summary.png" alt="Morphometrics for bacterial colonies" height="350">
 
 # Optional breakout 2
 
